@@ -4,7 +4,7 @@ const prompt = promptSync();
 
 // Asks user to pick a pokemon and returns said pokemon in lower case
 const pokemonChoice = () => {
-    const pokemon = prompt("Which pokemon would you like to choose?: ").toLowerCase();
+    const pokemon = prompt("Which Pokémon would you like to choose?: ").toLowerCase();
     return pokemon;
 };
 
