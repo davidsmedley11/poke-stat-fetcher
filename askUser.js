@@ -30,7 +30,7 @@ const wouldLikeSprites = (name) => {
 
 // If user would like artwork, returns true
 const wouldLikeArtwork = (name) => {
-    const userResponse = prompt(`Would you like to download ${name}'s artwork?: `).toLowerCase();
+    const userResponse = prompt(`Would you like to download ${name}'s official artwork?: `).toLowerCase();
     if (userResponse === "yes" || userResponse === "y") {
         return true;
     } else {
